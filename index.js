@@ -1,0 +1,1 @@
+throw('Do not import or require this module')

@@ -1,0 +1,25 @@
+{
+  "name": "@heathprovost/oracledb-linux-x64-sharedlibraries",
+  "version": "5.3.0",
+  "description": "Linux x64 Shared Libraries required to run Node OracleDB Client",
+  "main": "index.js",
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "scripts": {
+    "postinstall": "unzip -u bundle.zip -d lib && rm bundle.zip"
+  },
+  "author": "Heath Provost <galvanash@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heathprovost/oracledb-linux-x64-sharedlibraries.git"
+  },
+  "bugs": {
+    "url": "https://github.com/heathprovost/oracledb-linux-x64-sharedlibraries/issues"
+  },
+  "homepage": "https://github.com/heathprovost/oracledb-linux-x64-sharedlibraries#readme"
+}
