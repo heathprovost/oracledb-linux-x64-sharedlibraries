@@ -1,6 +1,6 @@
 {
   "name": "@heathprovost/oracledb-linux-x64-sharedlibraries",
-  "version": "5.4.0",
+  "version": "5.5.0",
   "description": "Linux x64 Shared Libraries required to run Node OracleDB Client",
   "main": "index.js",
   "os": [
@@ -24,7 +24,7 @@
     "url": "https://github.com/heathprovost/oracledb-linux-x64-sharedlibraries/issues"
   },
   "homepage": "https://github.com/heathprovost/oracledb-linux-x64-sharedlibraries#readme",
-  "devDependencies": {
+  "dependencies": {
     "run-script-os": "^1.1.6"
   }
 }
